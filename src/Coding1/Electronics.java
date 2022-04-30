@@ -10,7 +10,7 @@ public class Electronics extends Product {
     public Electronics(int price, String name, String description, double quantity, String type, int length, int width, int height, double weight) {
         super(price, name, description, quantity);
         this.type = type;
-        this.length = length; //mm
+        this.length = length;  //mm
         this.width = width; //mm
         this.height = height; //mm
         this.weight = weight; //kg
